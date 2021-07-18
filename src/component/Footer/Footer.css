@@ -9,6 +9,12 @@
     
 }
 
+.bg-footer a{
+    text-decoration: none;
+    color: white;
+    margin: 11px ;
+}
+
 .bi-instagram{
     font-size: 15px;
     margin: 11px ;
