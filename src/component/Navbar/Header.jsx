@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MenuItems } from "./MeneuItems";
 import { Button } from "../Button/Button";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function Header() {
   const [clicked, setclicked] = useState(false);
@@ -23,8 +24,8 @@ export default function Header() {
             {MenuItems.map((item, index) => {
               return (
                 <li key="index">
-                  <a href={item.url} className={item.cName}>
-                    {item.title}
+                  <a className={item.cName}>
+                    <Link to={item.url}>{item.title}</Link>
                   </a>
                 </li>
               );
