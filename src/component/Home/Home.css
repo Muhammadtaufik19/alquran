@@ -1,0 +1,44 @@
+
+.bg-home{
+    align-content: center;
+    margin-top: 40px;
+    min-height: 650px;
+    /* background-color: rgb(201, 201, 201); */
+       
+}
+
+.row{
+    justify-content: space-around;
+}
+
+.home-kiri{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-kanan img{
+    width: 100%;
+}
+
+/* mobile */
+@media screen and (max-width:450px){
+    
+    .home-kiri h2{
+        font-size: 20px;
+    }
+
+    .home-kanan{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .home-kanan img{
+        width: 80%;
+        
+    }
+   
+}

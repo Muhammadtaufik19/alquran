@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,208 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+/* =======================Head
+.bg-head {
+  width: 100%;
+  overflow: hidden;
+  background-color: dodgerblue;
+  padding: 5px 0px;
+  top: 0;
+  height: 50px;
+} */
+/* 
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header a:hover{
+  color: black;
+  transition: 0.5s;
+}
+.header-right a:hover {
+  transition: 1s;
+  color: black;
+} */
+/* 
+.header-right {
+  float: right;
+  cursor: pointer;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/* ===========================header */
+.bg-header{
+  background-color: turquoise;
+}
+.NavbarItems{
+  background-color: turquoise;
+  height: 80px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+
+.nav-logo{
+  color: white;
+  justify-self: start;
+  cursor: pointer;
+}
+
+.nav-menu{
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-gap: 15px;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+  padding-top: 10px;
+  width: 60vw;
+  margin-right: 2rem;
+  
+}
+
+.nav-links{
+  color: white;
+  text-decoration:none;
+  padding-top: 10px;
+}
+
+.nav-links:hover{
+  /* background-color: blanchedalmond; */
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-mobile{
+  /* display: none; */
+  color: white;
+  text-decoration:none;
+}
+
+.menu-icon{
+  display: none;
+}
+
+h1 a{
+  text-decoration: none;
+  color: white;
+}
+
+h1 a:hover {
+  color: rgb(253, 255, 143);
+}
+
+/* mobile =================*/
+@media screen and (max-width:450px){ 
+  .NavbarItems{
+    position: relative;
+    /* overflow: hidden; */
+  }
+
+  .bagian-surah{
+    margin: 20px auto;
+  }
+  .nav-menu{
+    background-color: rgb(101, 243, 229);
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 80px;
+    left: -150%;
+    opacity: 0.1px;
+    transition: all 0.5s ease-in-out;
+    margin-left: 14px;
+    
+    
+  }
+  
+ .nav-menu.active{
+    /* background: olivedrab; */
+    left: -15px;
+    width: 100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+ .nav-links{
+    text-align: center;
+    padding: 0.1rem;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+   
+    /* display: table; */
+  }
+
+ .nav-links:hover{
+    /* background-color: rgb(223, 223, 223); */
+    /* border-radius: 8px; */
+    opacity: 0.8;
+    color: black;
+    cursor: pointer;
+  }
+
+   .nav-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 40%);
+  }
+
+    .menu-icon{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-90%,40%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: white;
   }
 }

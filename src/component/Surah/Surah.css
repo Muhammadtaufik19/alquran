@@ -1,0 +1,96 @@
+/* .col{
+    background-color: teal;
+} */
+
+/* ==================surah */
+.kebawah{
+    display: flex;
+    flex-wrap: wrap;
+}
+li.surah{
+    display: flex;
+ 
+    background: teal;
+    font-size: 24px; 
+    line-height: 25px;
+    color: white;
+    /* height: 100px; */
+    width: 400px;
+    margin: 5px 0px 5px 5px ;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+li .nom{
+    margin: 15px 0px;
+    display: flex;
+    align-self: center;
+    /* background-color: chartreuse !important; */
+}
+
+li .transliteration{
+    display: block;
+    /* background-color: blueviolet; */
+} 
+
+li .translation{
+    font-size: 18px;
+    margin-left: 15px ;
+}
+
+li .arab{
+    align-self: center;
+    font-size:  35px;
+    margin-top: 10px;
+    
+    /* background-color: blue; */
+    
+}
+
+li .arab a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    
+
+}
+
+li a:hover{
+    color: #F9F871;
+}
+
+.pencarian{
+    display: flex;
+    justify-content: start;
+}
+
+/* =============spesifik surah */
+section .spesifik-arab{
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+}
+
+
+/* mobile */
+@media screen and (max-width:450px){
+    
+  .pencarian{
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+  }
+
+  .bagian-surah{
+      width: 90%;
+  }
+   
+}

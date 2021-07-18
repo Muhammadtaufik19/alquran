@@ -1,0 +1,35 @@
+.bg-footer{
+    background: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    /* padding-top: 10px auto; */
+    
+}
+
+.bi-instagram{
+    font-size: 15px;
+    margin: 11px ;
+}
+
+.bi-instagram:hover{
+    cursor: pointer;
+    color: turquoise;
+}
+
+.bi-github{
+    font-size: 15px;
+    margin: 11px ;
+}
+
+.bi-github:hover{
+    cursor: pointer;
+    color: turquoise;
+}
+
+.bg-footer p{
+    font-size: 15px;
+    margin-top: 15px ; 
+}
