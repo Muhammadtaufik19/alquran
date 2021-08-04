@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/alquran/static/css/main.81a18800.chunk.css",
+    "main.js": "/alquran/static/js/main.eaa903db.chunk.js",
+    "main.js.map": "/alquran/static/js/main.eaa903db.chunk.js.map",
+    "runtime-main.js": "/alquran/static/js/runtime-main.df10801f.js",
+    "runtime-main.js.map": "/alquran/static/js/runtime-main.df10801f.js.map",
+    "static/css/2.7593cf66.chunk.css": "/alquran/static/css/2.7593cf66.chunk.css",
+    "static/js/2.1f87da88.chunk.js": "/alquran/static/js/2.1f87da88.chunk.js",
+    "static/js/2.1f87da88.chunk.js.map": "/alquran/static/js/2.1f87da88.chunk.js.map",
+    "static/js/3.b8415918.chunk.js": "/alquran/static/js/3.b8415918.chunk.js",
+    "static/js/3.b8415918.chunk.js.map": "/alquran/static/js/3.b8415918.chunk.js.map",
+    "index.html": "/alquran/index.html",
+    "static/css/2.7593cf66.chunk.css.map": "/alquran/static/css/2.7593cf66.chunk.css.map",
+    "static/css/main.81a18800.chunk.css.map": "/alquran/static/css/main.81a18800.chunk.css.map",
+    "static/js/2.1f87da88.chunk.js.LICENSE.txt": "/alquran/static/js/2.1f87da88.chunk.js.LICENSE.txt",
+    "static/media/Alquran-2.edf8d2a0.jpg": "/alquran/static/media/Alquran-2.edf8d2a0.jpg",
+    "static/media/font-awesome.min.css": "/alquran/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/logo.6ce24c58.svg": "/alquran/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df10801f.js",
+    "static/css/2.7593cf66.chunk.css",
+    "static/js/2.1f87da88.chunk.js",
+    "static/css/main.81a18800.chunk.css",
+    "static/js/main.eaa903db.chunk.js"
+  ]
+}
