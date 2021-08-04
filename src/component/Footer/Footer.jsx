@@ -10,6 +10,7 @@ export const Footer = () => {
       </a>
       <a href="https://www.instagram.com/taufik_streetball" target="_blank">
         <i className="bi bi-instagram"></i>
+        {/* tes */}
       </a>
     </div>
   );
